@@ -1,0 +1,15 @@
+#card-field {
+    animation: card 1.2s forwards ease-in-out;
+}
+
+@keyframes card {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
