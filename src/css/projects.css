@@ -62,3 +62,14 @@
 #links>a:nth-child(9) {
     --animation-order: 8;
 }
+
+#links>a:nth-child(10) {
+    --animation-order: 9;
+}
+
+@media only screen and (max-width: 640px) {
+    #links a {
+        font-size: 14px;
+        margin-top: 0;
+    }
+}

@@ -8,7 +8,7 @@ const Side = ({ changeLanguage }) => {
     return (
         <div className='h-full p-1 border-r-[1px] dark:bg-[#202123] border-black flex flex-col justify-between transition-all duration-200 max-lg:max-w-max'>
             <div className='mt-20 dark:text-white'>
-            <span className='text-[0.55rem] p-3 fixed top-2'>v0.1.0</span>
+                <span className='text-[0.55rem] p-3 fixed top-2'>v0.1.0</span>
                 <ul className='max-lg:hidden font-medium'>
                     <NavLink to="home">
                         <li className='my-5 hover:bg-gray-200 pl-6 max-xl:pl-3 p-2 rounded-xl hover:cursor-pointer transition-all duration-200 dark:hover:bg-[#444654] dark:hover:bg-opacity-50'>
@@ -50,12 +50,14 @@ const Side = ({ changeLanguage }) => {
                             </span>
                         </li>
                     </NavLink>
-                    <li className='my-5 hover:bg-gray-200 pl-6 max-xl:pl-3 p-2 rounded-xl hover:cursor-pointer transition-all duration-200 dark:hover:bg-[#444654] dark:hover:bg-opacity-50 max-xl:text-center' onClick={() => changeLanguage('tr')}>
-                        TR
-                    </li>
-                    <li className='my-5 hover:bg-gray-200 pl-6 max-xl:pl-3 p-2 rounded-xl hover:cursor-pointer transition-all duration-200 dark:hover:bg-[#444654] dark:hover:bg-opacity-50 max-xl:text-center' onClick={() => changeLanguage('en')}>
-                        EN
-                    </li>
+                    <div className='language'>
+                        <li className='my-5 hover:bg-gray-200 pl-6 max-xl:pl-3 p-2 rounded-xl hover:cursor-pointer transition-all duration-200 dark:hover:bg-[#444654] dark:hover:bg-opacity-50 max-xl:text-center' onClick={() => changeLanguage('tr')}>
+                            TR
+                        </li>
+                        <li className='my-5 hover:bg-gray-200 pl-6 max-xl:pl-3 p-2 rounded-xl hover:cursor-pointer transition-all duration-200 dark:hover:bg-[#444654] dark:hover:bg-opacity-50 max-xl:text-center' onClick={() => changeLanguage('en')}>
+                            EN
+                        </li>
+                    </div>
                 </ul>
 
                 <ul className='hidden max-lg:block px-3'>
@@ -84,12 +86,14 @@ const Side = ({ changeLanguage }) => {
                             <i class="fas fa-image"></i>
                         </li>
                     </NavLink>
-                    <li className='my-5 text-center hover:bg-gray-200 p-2 rounded-lg dark:hover:bg-[#444654] hover:bg-opacity-50 font-medium cursor-pointer' onClick={() => changeLanguage('tr')}>
-                        TR
-                    </li>
-                    <li className='my-5 text-center hover:bg-gray-200 p-2 rounded-lg dark:hover:bg-[#444654] hover:bg-opacity-50 font-medium cursor-pointer' onClick={() => changeLanguage('en')}>
-                        EN
-                    </li>
+                    <div>
+                        <li className='my-5 text-center hover:bg-gray-200 p-2 rounded-lg dark:hover:bg-[#444654] hover:bg-opacity-50 font-medium cursor-pointer' onClick={() => changeLanguage('tr')}>
+                            TR
+                        </li>
+                        <li className='my-5 text-center hover:bg-gray-200 p-2 rounded-lg dark:hover:bg-[#444654] hover:bg-opacity-50 font-medium cursor-pointer' onClick={() => changeLanguage('en')}>
+                            EN
+                        </li>
+                    </div>
                 </ul>
 
             </div>

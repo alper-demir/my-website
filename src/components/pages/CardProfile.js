@@ -1,7 +1,8 @@
-import avatar from '../../avatar.jpg'
+import avatar from '../../avatar2.jpg'
 import '../../css/card.css'
 import { FormattedMessage } from 'react-intl'
 const CardProfile = () => {
+    document.querySelector('title').innerText = "Home"
     return (
         <div className='h-screen flex items-center justify-center max-md:text-sm max-sm:text-xs transition-all duration-200 dark:bg-[#343541]' >
             <div className='border-2 border-sky-600 p-10 rounded text-center shadow-lg flex flex-col items-center justify-center dark:bg-[#202123] dark:bg-opacity-30 dark:border-indigo-400 hover:shadow-xl dark:hover:border-purple-400 hover:border-blue-400 transition-colors duration-300' id='card-field'>

@@ -23,7 +23,7 @@ const Theme = () => {
 
     return (
         <>
-            <div className='bg-sky-600 dark:bg-indigo-500 h-6 max-xl:w-16 flex items-center rounded-xl mb-20 mx-auto cursor-pointer max-md:w-14 transition-all duration-300 max-lg:hidden w-20' onClick={changeTheme}>
+            <div className='bg-sky-600 dark:bg-indigo-500 h-6 max-xl:w-16 flex items-center rounded-xl mb-20 mx-auto cursor-pointer max-md:w-14 transition-all duration-300 max-lg:hidden w-20 theme' onClick={changeTheme}>
                 <div className='rounded-full bg-white h-4 w-4 ml-2 duration-500 max-xl:dark:translate-x-8 dark:translate-x-12 dark:bg-indigo-900'>
                 </div>
             </div>

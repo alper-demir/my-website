@@ -14,14 +14,17 @@
         "about-content": "Bilgisayar Mühendisliği 3. sınıf öğrencisiyim. B1 seviyesinde ingilizce biliyorum. İnternet sitelerinin nasıl yapıldığını, bir şeylere tıkladığımızda arka planda neler döndüğünü merak ederek web geliştiriciliğine yöneldim. Gerek çevrimiçi kaynaklardan gerekse kurslardan faydalanarak kendimi geliştirip, öğrenmeye çalışıyorum. Sadece bununla yetinmeyip bölümümün -yazılımın farklı alanlarında da faaliyette bulunmaktan keyif alırım. Henüz proje düzeyinde başlamasam bile konsept olarak mobil ve oyun geliştirme fikri hoşuma gidiyor. Bu tarz içerikleri takip etmeyi seviyorum. Ayrıca sıkı bir Star Wars hayranıyım. Gelecekte burada farklı konularda zengin içerikler olabilir..",
         "gallery": "Galeri",
         "communication-portal": "Node.js & MySQL ile geliştirmekte olduğum canlı sohbet desteği olan iletişim platformu projesi. Üyelik oluşturma, arkadaş ekleme, konu başlatma, koyu mod, canlı sohbet etme gibi özellikler var.",
-        "instagram-clone": "React ve TailwindCSS ile frontend bilgisini geliştirmek için başladım, henüz bitmedi. Sadece front-end'den ziyade ileride full-stack bir yapıya çevirme düşüncem var",
-        "recipe-app": "Dönem ödevim için Python & Django framework ve jQuery kullanarak yaptığım yemek tarif sitesi. Bilgilerin veritabanında tutulduğu pek kompleks olmayan başlangıç seviye bir proje. Admin paneli ile içerikler eklenebiliyor, silinebiliyor ve güncellenebiliyor.",
+        "instagram-clone": "React ve TailwindCSS ile frontend bilgisini geliştirmek için başladım, henüz bitmedi. Sadece front-end'den ziyade ileride full-stack bir yapıya çevirme düşüncem var.",
+        "recipe-app": "Dönem ödevim için Python & Django framework ve jQuery kullanarak yaptığım yemek tarif sitesi. Bilgilerin veritabanında tutulduğu bir proje. Admin paneli ile içerikler eklenebiliyor, silinebiliyor ve güncellenebiliyor.",
         "image-scaling": "Python, Pillow ve Tkinter kütüphanesi ile görsel boyutlandırma projesi. Girdi olarak verilen görseli belirtilen çözünürlükte ve kalitede çıktı olarak verir. Siyah-beyaz ayarıda var. Girdi ve çıktı arasındaki görsel boyutu farkı + ya da - yüzdelik olarak hesaplanır.",
         "valorant-api": "React ve Valorant API kullanarak oyunun silah, harita, ajanları gibi bilgilerini alıp geliştirdiğim bir proje.",
         "weather-app": "Openweathermap API ile yaptığım anlık hava durumu takip uygulaması.",
         "mp3-player": "Bootstrap ve salt Javascript kullanarak tasarladığım Mp3 Player uygulaması. Şarkılar arasında geçişler, ses ayarı ve şarkıları yıldızlayıp favoriler kısmına ekleme özellikleri içeriyor.",
         "color-changer-react": "React ile yaptığım hexadecimal formatta rastgele renk kodu üreten uygulama. Üretilen renk kodu seçilirse kodu kopyalar ve seçilen son bir kısım renk kodu geçmişte saklanıp tekrar seçilebilir.",
-        "color-changer-vanilla": "Vanillajs ile hexadecimal formatta rastgele renk kodu üreten uygulama. Tarayıcıya sabitlenip kullanılabilir. Son 8 seçilen renk kodu tekrar seçilebilir."
+        "color-changer-vanilla": "Vanillajs ile hexadecimal formatta rastgele renk kodu üreten uygulama. Tarayıcıya sabitlenip kullanılabilir. Son 8 seçilen renk kodu tekrar seçilebilir.",
+        "personel-website": "React ve TailwindCSS kullanarak kendim için hazırlamış olduğum website. Responsive tasarımı ile mobil cihaz ekranlarından da görüntülenebilir. Türkçe-İngilizce dil desteği ve açık-koyu moda göre bir arayüz tasarımı var.",
+        "gallery-future": "Gelecekte..",
+        "cv": "CV indir"
     },
     "en": {
         "home": "Home",
@@ -39,12 +42,15 @@
         "gallery": "Gallery",
         "communication-portal": "Communication platform project with live chat support that I am developing with Node.js & MySQL. There are features such as creating a membership, adding friends, starting a topic, dark mode, and real-time chatting.",
         "instagram-clone": "I started with React and TailwindCSS to improve frontend knowledge, it's not finished yet. I have a thought to turn it into a full-stack structure in the future rather than just the front-end.",
-        "recipe-app": "Recipe site I made using Python & Django framework and jQuery for my term project. It is a beginner level project that is not very complex where information is kept in a database. Contents can be added, deleted and updated with the admin panel.",
+        "recipe-app": "Recipe site for my term paper using Python & Django framework and jQuery. A project where information is kept in a database. Content can be added, deleted and updated with the admin panel.",
         "image-scaling": "Visual resizing project with Python, Pillow and Tkinter library. It outputs the image given as input in the specified resolution and quality. It has black and white settings. The difference in image size between input and output is calculated as + or - percentile.",
         "valorant-api": "A project in which I developed the game's information such as weapons, maps, agents using React and Valorant API.",
         "weather-app": "Instant weather tracking application that I made with Openweathermap API.",
         "mp3-player": "Mp3 Player application that I designed using Bootstrap and pure Javascript. It includes transitions between songs, volume adjustment, and features to star songs and add them to the favorites section.",
         "color-changer-react": "An application that generates random color codes in hexadecimal format with React. If the generated color code is selected, it copies the code and the last few color codes selected can be saved in the history and re-selected.",
-        "color-changer-vanilla": "An application that generates random color codes in hexadecimal format with vanillajs. It can be fixed to the browser and used. The last 8 selected color codes can be selected again."
+        "color-changer-vanilla": "An application that generates random color codes in hexadecimal format with vanillajs. It can be fixed to the browser and used. The last 8 selected color codes can be selected again.",
+        "personel-website": "The website I prepared for myself using React and TailwindCSS. It can also be viewed on mobile device screens with its responsive design. It has Turkish-English language support and an interface design according to light-dark mode.",
+        "gallery-future": "In future..",
+        "cv": "Download CV"
     }
 }

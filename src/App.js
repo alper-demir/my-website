@@ -13,8 +13,22 @@ import WeatherApp from './components/projects/WeatherApp';
 import Mp3Player from './components/projects/Mp3Player';
 import ColorChangerReact from './components/projects/ColorChangerReact'
 import ColorChangerVanilla from './components/projects/ColorChangerVanilla'
+import PersonelSite from './components/projects/PersonelSite'
 import Gallery from './components/pages/Gallery';
+import Joyride from 'react-joyride';
+
 function App() {
+
+  const steps = [
+    {
+      target: '.language',
+      content: 'Buradan dili değiştirebilirsin.',
+    },
+    {
+      target: '.theme',
+      content: 'Buradan tema rengini ayarlayabilirsin.',
+    }
+  ]
 
   const router = createBrowserRouter([
     {
@@ -37,6 +51,7 @@ function App() {
             { path: 'mp3-player', element: <Mp3Player /> },
             { path: 'color-changer-react', element: <ColorChangerReact /> },
             { path: 'color-changer-vanillajs', element: <ColorChangerVanilla /> },
+            { path: 'personel-website', element: <PersonelSite /> },
           ]
         },
         { path: '/about', element: <About /> },
@@ -46,9 +61,10 @@ function App() {
   ])
 
   return (
-
-    <RouterProvider router={router}></RouterProvider>
-
+    <>
+      <Joyride steps={steps} continuous={true} />
+      <RouterProvider router={router}></RouterProvider>
+    </>
   );
 }
 
